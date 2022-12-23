@@ -1,0 +1,97 @@
+{
+  "articlesCards": [
+    {
+      "img": "item-1.png",
+      "title": "8 best vacuum cleaners to clean any mess for your home in 2022",
+      "description": "Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.",
+      "time": 1642839985000
+    },
+    {
+      "img": "item-2.png",
+      "title": "How to properly disinfect your phone and other electronics",
+      "description": "Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.",
+      "time": 1644481585000
+    }
+  ],
+  "numberPlus": [
+    {
+      "count": "10",
+      "description": "Years"
+    },
+    {
+      "count": "5k",
+      "description": "Clients"
+    },
+    {
+      "count": "20k",
+      "description": "Jobs done"
+    }
+  ],
+  "serviceWorks": [
+    {
+      "id": 1,
+      "img": "item-1.svg",
+      "title": "Schedule online",
+      "description": "Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sedn."
+    },
+    {
+      "id": 2,
+      "img": "item-2.svg",
+      "title": "Pay online easily",
+      "description": "Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc."
+    },
+    {
+      "id": 3,
+      "img": "item-3.svg",
+      "title": "Get your house cleaned",
+      "description": "Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend."
+    }
+  ],
+  "serviceCleaning": [
+    {
+      "icon": "icon-1.svg",
+      "title": "clients",
+      "count": "3,480+"
+    },
+    {
+      "icon": "icon-2.svg",
+      "title": "Jobs done",
+      "count": "12,540+"
+    },
+    {
+      "icon": "icon-3.svg",
+      "title": "Employees",
+      "count": "100+"
+    }
+  ],
+  "cardsProfessional": [
+    {
+      "id": 1,
+      "img": "item-1.webp",
+      "title": "House cleaning",
+      "description": "Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est."
+    },
+    {
+      "id": 2,
+      "img": "item-2.webp",
+      "title": "Office cleaning",
+      "description": "Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est."
+    },
+    {
+      "id": 3,
+      "img": "item-3.webp",
+      "title": "Industrial cleaning",
+      "description": "Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est."
+    }
+  ],
+  "officeChecks": [
+    "Bathrooms",
+    "Kitchens",
+    "Living Rooms",
+    "Carpets",
+    "Bedrooms",
+    "Offices",
+    "Businesses",
+    "Windows"
+  ]
+}
