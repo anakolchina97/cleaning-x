@@ -6,7 +6,7 @@
       "components/*": ["./components/*"],
       "styles/*": ["./styles/*"],
       "images/*": ["./images/*"]
-    },
-    "exclude": ["node_modules"]
-  }
+    }
+  },
+  "exclude": ["node_modules"]
 }
