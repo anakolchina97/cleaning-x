@@ -19,7 +19,7 @@ const What = () => {
   }, []);
 
   return (
-    <WhatBox>
+    <WhatBox id="different">
       <Container>
         <WhatInner>
           <WhatText>

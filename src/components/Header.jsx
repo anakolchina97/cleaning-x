@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
-import H1 from './H1';
-import Description from './Description';
-import Container from './Container';
-import ButtonAndPhone from './ButtonAndPhone';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
+import H1 from "./H1";
+import Description from "./Description";
+import Container from "./Container";
+import ButtonAndPhone from "./ButtonAndPhone";
 
 const Header = () => {
   return (
-    <HeaderBox>
+    <HeaderBox id="home">
       <Container>
         <HeaderBoxInner>
           <HeaderContentBox>
@@ -18,14 +18,15 @@ const Header = () => {
               for your home
             </H1>
             <Description mb={34}>
-              Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis
-              senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.
+              Condimentum mauris sit cursus amet id non neque pharetra nulla
+              ornare sed facilisis senectus dapibus nibh ultrices eget suscipit
+              aliquet et nulla magna lacus penatibus.
             </Description>
             <ButtonAndPhone removeButtonMobile={true} />
           </HeaderContentBox>
           <HeaderImgBox>
             <HeaderImgInner
-              src={require('../images/header/header-img.svg').default}
+              src={require("../images/header/header-img.svg").default}
               alt="header-img"
             />
           </HeaderImgBox>

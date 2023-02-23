@@ -1,30 +1,33 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
-import Container from './Container';
-import { H2Box } from './H2';
-import Description from './Description';
-import Icons from './Icons';
-import Icon from './Icon';
-import { useEffect } from 'react';
-import { useState } from 'react';
-import Video from './Video';
-import Hr from './Hr';
-import db from '../db.json';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
+import Container from "./Container";
+import { H2Box } from "./H2";
+import Description from "./Description";
+import Icons from "./Icons";
+import Icon from "./Icon";
+import { useEffect } from "react";
+import { useState } from "react";
+import Video from "./Video";
+import Hr from "./Hr";
+import db from "../db.json";
 
 const ServiceCleaning = () => {
   const [icons, setIcons] = useState([]);
 
   useEffect(() => {
-    setIcons(db['serviceCleaning']);
+    setIcons(db["serviceCleaning"]);
   }, []);
   return (
-    <ServiceCleaningBox>
+    <ServiceCleaningBox id="services">
       <Container>
-        <ServiceCleaningTitle>Our cleaning services have no comparison</ServiceCleaningTitle>
-        <Description align={'center'} mb={32}>
-          Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa
-          mauris lectus vitae cras viverra gravida sapien.
+        <ServiceCleaningTitle>
+          Our cleaning services have no comparison
+        </ServiceCleaningTitle>
+        <Description align={"center"} mb={32}>
+          Lobortis mattis odio leo eget mauris met aliquet semper molestie
+          sollicitudin congue massa mauris lectus vitae cras viverra gravida
+          sapien.
         </Description>
         <ServiceCleaningIconsBox>
           <Icons>
@@ -34,7 +37,7 @@ const ServiceCleaning = () => {
           </Icons>
         </ServiceCleaningIconsBox>
         <ServiceCleaningVideoBox>
-          <Video position={'0 auto'} />
+          <Video position={"0 auto"} />
         </ServiceCleaningVideoBox>
         <Hr />
       </Container>

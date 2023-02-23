@@ -20,7 +20,7 @@ const ServiceWorks = () => {
   }, []);
 
   return (
-    <ServiceWorksContainer>
+    <ServiceWorksContainer id="works">
       <Container>
         <H2 align="center" mb={21}>
           How our service works?

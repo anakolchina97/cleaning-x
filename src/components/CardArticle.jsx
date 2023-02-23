@@ -1,16 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
-import H4 from './H4';
-import { DescriptionBox } from './Description';
-import convertDate from 'src/utils/convertDate';
-import Time from './Time';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
+import H4 from "./H4";
+import { DescriptionBox } from "./Description";
+import convertDate from "src/utils/convertDate";
+import Time from "./Time";
 
 const CardArticle = ({
-  img = 'images/article/item-1.png',
-  title = '8 best vacuum cleaners to clean any mess for your home in 2022',
-  description = 'Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.',
-  time = 'Jan 28, 2022',
+  img = "item-1.png",
+  title = "8 best vacuum cleaners to clean any mess for your home in 2022",
+  description = "Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.",
+  time = "Jan 28, 2022",
   page,
 }) => {
   return (
@@ -25,7 +25,9 @@ const CardArticle = ({
           <CardArticleTextFooter>
             <Time>{convertDate(time)}</Time>
             <CardArticleTextLink href="#">
-              <CardArticleIcon src={require('../images/arrow-right.svg').default} />
+              <CardArticleIcon
+                src={require("../images/arrow-right.svg").default}
+              />
             </CardArticleTextLink>
           </CardArticleTextFooter>
         </CardArticleTextContainer>
@@ -35,7 +37,7 @@ const CardArticle = ({
 };
 
 const CardArticleContainer = styled.article`
-  max-width: ${(props) => (props.page === 'components' ? rem(596) : 'auto')};
+  max-width: ${(props) => (props.page === "components" ? rem(596) : "auto")};
   width: 100%;
 `;
 
