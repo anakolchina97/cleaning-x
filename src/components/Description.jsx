@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
 
 const Description = ({ children, align, mb }) => {
   return (
@@ -18,7 +18,7 @@ export const DescriptionBox = styled.p`
   line-height: 143%;
   color: ${(props) => props.theme.color.description};
   ${(props) => {
-    if (props.align === 'center') {
+    if (props.align === "center") {
       return `
           text-align: center;
           margin: 0 auto;

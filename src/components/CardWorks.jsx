@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
-import H3 from './H3';
-import Description from './Description';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
+import H3 from "./H3";
+import Description from "./Description";
 
 const CardWorks = ({
   id = 1,
-  img = 'item-1.svg',
-  title = 'Schedule online',
-  description = 'Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.',
+  img = "item-1.svg",
+  title = "Schedule online",
+  description = "Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.",
   page,
 }) => {
   return (
@@ -25,7 +25,7 @@ const CardWorks = ({
 };
 
 const CardWorksContainer = styled.article`
-  max-width: ${(props) => (props.page === 'components' ? rem(374) : 'auto')};
+  max-width: ${(props) => (props.page === "components" ? rem(374) : "auto")};
   width: 100%;
 `;
 
