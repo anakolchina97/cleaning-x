@@ -19,7 +19,7 @@ const What = () => {
   }, []);
 
   return (
-    <WhatBox id="different">
+    <WhatBox id="different" data-animation>
       <Container>
         <WhatInner>
           <WhatText>

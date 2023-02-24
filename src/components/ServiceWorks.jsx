@@ -20,7 +20,7 @@ const ServiceWorks = () => {
   }, []);
 
   return (
-    <ServiceWorksContainer id="works">
+    <ServiceWorksContainer id="works" data-animation>
       <Container>
         <H2 align="center" mb={21}>
           How our service works?

@@ -71,10 +71,10 @@ const Footer = () => {
             <FooterBottomCopyright>
               Copyright © Cleaning X | Dev by{" "}
               <FooterBottomCopyrightLink
-                href={"https://hartmannie.ru/"}
+                href={"https://github.com/anakolchina97"}
                 target={"_blank"}
               >
-                Hartmannie.ru
+                Anna Kolchina
               </FooterBottomCopyrightLink>
             </FooterBottomCopyright>
           </FooterBottom>

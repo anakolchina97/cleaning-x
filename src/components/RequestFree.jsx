@@ -13,7 +13,7 @@ import Textarea from "./Textarea";
 
 const RequestFree = () => {
   return (
-    <RequestFreeBox>
+    <RequestFreeBox data-animation>
       <Container>
         <RequestFreeInner>
           <RequestFreeInfo>

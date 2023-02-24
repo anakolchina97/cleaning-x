@@ -15,7 +15,7 @@ const LookProfessional = () => {
   }, []);
 
   return (
-    <LookProfessionalBox>
+    <LookProfessionalBox data-animation>
       <Container>
         <LookProfessionalHeader>
           <LookProfessionalTitle>

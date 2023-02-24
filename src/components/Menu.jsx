@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { rem } from "polished";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const links = [
@@ -20,6 +21,11 @@ const Menu = () => {
       href: "#different",
       name: "Different",
     },
+    {
+      page: true,
+      href: "/components",
+      name: "Components",
+    },
   ];
 
   const handleClick = (e) => {
@@ -34,11 +40,15 @@ const Menu = () => {
 
   return (
     <MenuContainer>
-      {links.map(({ href, name }) => (
+      {links.map(({ href, name, page }) => (
         <MenuItem key={name}>
-          <MenuLink href={href} onClick={handleClick}>
-            {name}
-          </MenuLink>
+          {page ? (
+            <MenuLinkPage to={href}>{name}</MenuLinkPage>
+          ) : (
+            <MenuLink href={href} onClick={handleClick}>
+              {name}
+            </MenuLink>
+          )}
         </MenuItem>
       ))}
     </MenuContainer>
@@ -54,15 +64,18 @@ const MenuContainer = styled.ul`
 
 const MenuItem = styled.li`
   margin-right: ${rem(22)};
+  font-weight: 400;
+  font-size: ${rem(18)};
+  color: ${(props) => props.theme.color.black};
   &:last-child {
     margin-right: 0;
   }
 `;
 
 const MenuLink = styled.a`
-  font-weight: 400;
-  font-size: ${rem(18)};
-  color: ${(props) => props.theme.color.black};
+  color: inherit;
 `;
+
+const MenuLinkPage = styled(Link)``;
 
 export default Menu;

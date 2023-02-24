@@ -18,7 +18,7 @@ const Office = () => {
   }, []);
 
   return (
-    <OfficeBox>
+    <OfficeBox data-animation>
       <Container>
         <OfficeInner>
           <OfficeImg src={require("../images/office.svg").default} />

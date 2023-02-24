@@ -18,7 +18,7 @@ const Articles = () => {
   }, []);
 
   return (
-    <ArticlesBox>
+    <ArticlesBox data-animation>
       <Container>
         <ArticlesTop>
           <ArticlesTitles>

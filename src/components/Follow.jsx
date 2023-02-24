@@ -1,27 +1,31 @@
-import React from 'react';
-import styled from 'styled-components';
-import { rem } from 'polished';
-import Container from './Container';
-import { H2Box } from './H2';
-import { DescriptionBox } from './Description';
-import ButtonAndPhone from './ButtonAndPhone';
+import React from "react";
+import styled from "styled-components";
+import { rem } from "polished";
+import Container from "./Container";
+import { H2Box } from "./H2";
+import { DescriptionBox } from "./Description";
+import ButtonAndPhone from "./ButtonAndPhone";
 
 const Follow = () => {
   return (
-    <FollowBox>
+    <FollowBox data-animation>
       <Container>
         <FollowInner>
-          <FollowImg src={require('../images/follow.svg').default} alt={'follow'} />
+          <FollowImg
+            src={require("../images/follow.svg").default}
+            alt={"follow"}
+          />
           <FollowContent>
             <FollowMiniTitle>Covid-19 sanitization</FollowMiniTitle>
             <FollowTitle>
-              We&nbsp;follow guidelines to&nbsp;keep you safe from the COVID-19 virus
+              We&nbsp;follow guidelines to&nbsp;keep you safe from the COVID-19
+              virus
             </FollowTitle>
             <FollowDescription>
-              Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue
-              massa mauris lectus.
+              Lobortis mattis odio leo eget mauris met aliquet semper molestie
+              sollicitudin congue massa mauris lectus.
             </FollowDescription>
-            <ButtonAndPhone color={'white'} />
+            <ButtonAndPhone color={"white"} />
           </FollowContent>
         </FollowInner>
       </Container>

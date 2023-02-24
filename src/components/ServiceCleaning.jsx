@@ -19,7 +19,7 @@ const ServiceCleaning = () => {
     setIcons(db["serviceCleaning"]);
   }, []);
   return (
-    <ServiceCleaningBox id="services">
+    <ServiceCleaningBox id="services" data-animation>
       <Container>
         <ServiceCleaningTitle>
           Our cleaning services have no comparison
