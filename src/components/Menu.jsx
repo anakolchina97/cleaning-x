@@ -76,6 +76,8 @@ const MenuLink = styled.a`
   color: inherit;
 `;
 
-const MenuLinkPage = styled(Link)``;
+const MenuLinkPage = styled(Link)`
+  color: inherit;
+`;
 
 export default Menu;
